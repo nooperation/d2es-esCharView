@@ -876,6 +876,11 @@ namespace CharacterEditor
 		/// <param name="isAdditional">Property to read has no header. Found in damage type properties</param>
 		private void ReadPropertyData(List<PropertyInfo> propertyList, int currentPropertyID, bool isAdditional = false)
 		{
+			if(!ItemDefs.ItemStatCostsById.ContainsKey(currentPropertyID))
+			{
+				return;
+			}
+
 			ItemStatCost statCost = ItemDefs.ItemStatCostsById[currentPropertyID];
 			PropertyInfo currentPropertyInfo = new PropertyInfo();
 
