@@ -236,7 +236,7 @@ namespace CharacterEditor
 		{
 			get 
 			{
-				if (Resources.Instance.ResourceSet == "es300_r6d")
+				if (Resources.Instance.ResourceSet == "es300_r6d" || Resources.Instance.ResourceSet.StartsWith("Goontopia"))
 				{
 					return GetStatValue("kill_counter");
 				}
@@ -244,7 +244,7 @@ namespace CharacterEditor
 			}
 			set
 			{
-				if (Resources.Instance.ResourceSet == "es300_r6d")
+				if (Resources.Instance.ResourceSet == "es300_r6d" || Resources.Instance.ResourceSet.StartsWith("Goontopia"))
 				{
 					SetStatValue("kill_counter", value);
 					OnPropertyChange("KillCount");
@@ -258,7 +258,7 @@ namespace CharacterEditor
 		{
 			get 
 			{
-				if (Resources.Instance.ResourceSet == "es300_r6d")
+				if (Resources.Instance.ResourceSet == "es300_r6d" || Resources.Instance.ResourceSet.StartsWith("Goontopia"))
 				{
 					return GetStatValue("death_counter");
 				}
@@ -266,7 +266,7 @@ namespace CharacterEditor
 			}
 			set
 			{
-				if (Resources.Instance.ResourceSet == "es300_r6d")
+				if (Resources.Instance.ResourceSet == "es300_r6d" || Resources.Instance.ResourceSet.StartsWith("Goontopia"))
 				{
 					SetStatValue("death_counter", value);
 					OnPropertyChange("DeathCount");
