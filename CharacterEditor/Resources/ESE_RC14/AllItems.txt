@@ -640,6 +640,7 @@ v7x Chromatic Blade
 5qk Grand Hurlbat
 5ql Grand Spellblade
 5qm Grand Archstaff
+5qn Grand Talons
 cap Cap
 skp Skull Cap
 hlm Helm
@@ -1062,7 +1063,7 @@ sh3 Voltaic Grand Crown
 sh4 Pox Grand Crown
 sh5 Hurricanic Grand Crown
 sh6 Aetheric Grand Crown
-5qn Grand Barrier
+5qp Grand Barrier
 5qo Grand Plate
 elx Elixir
 hpo Elixir

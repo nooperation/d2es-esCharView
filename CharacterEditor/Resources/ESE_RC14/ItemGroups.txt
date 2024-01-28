@@ -91,7 +91,6 @@ zhb	War Belt
 xh9	Grim Helm
 xsh	Grim Shield
 xpk	Barbed Shield
-	Expansion
 dr1	Wolf Head
 dr2	Hawk Helm
 dr3	Antlers
@@ -422,7 +421,7 @@ sh3	Voltaic Nexus Crown
 sh4	Pox Nexus Crown
 sh5	Hurricanic Nexus Crown
 sh6	Aetheric Nexus Crown
-5qn	Grand Barrier
+5qp	Grand Barrier
 5qo	Grand Plate
 
 [weapons]
@@ -601,7 +600,6 @@ msf	Staff of the Kings
 8rx	Chu-Ko-Nu
 qf1	KhalimFlail
 qf2	SuperKhalimFlail
-	Expansion
 ktr	Katar
 wrb	Wrist Blade
 axf	Hatchet Hands
@@ -1069,6 +1067,7 @@ v7x	Chromatic Blade
 5qk	Grand Hurlbat
 5ql	Grand Spellblade
 5qm	Grand Archstaff
+5qn	Grand Talons Fixed
 
 [stackable]
 tkf	Throwing Knife
