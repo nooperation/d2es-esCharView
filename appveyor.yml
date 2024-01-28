@@ -11,7 +11,7 @@ platform: Any CPU
 build:
   verbosity: minimal
 after_build:
-- cmd: 7z a %APPVEYOR_PROJECT_NAME%_v%APPVEYOR_BUILD_VERSION%.zip %APPVEYOR_BUILD_FOLDER%\esCharView\bin\Release\*.* -x!*.pdb
+- cmd: 7z a %APPVEYOR_PROJECT_NAME%_v%APPVEYOR_BUILD_VERSION%.zip -r %APPVEYOR_BUILD_FOLDER%\esCharView\bin\Release\*.* -x!*.pdb
 artifacts:
 - path: '*.zip'
   name: esCharView_v${APPVEYOR_BUILD_VERSION}
